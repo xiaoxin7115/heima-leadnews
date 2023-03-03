@@ -18,6 +18,7 @@ import java.util.Date;
 public class AdChannel implements Serializable {
     private static final long serialVersionUID = 1L;
     @TableId(value = "id", type = IdType.AUTO)
+    //注释
     private Integer id;
     /**
      * 频道名称
